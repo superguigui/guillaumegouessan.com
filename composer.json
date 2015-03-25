@@ -1,0 +1,8 @@
+{
+    "config": {
+        "vendor-dir": "static/php/vendor"
+    },
+    "require": {
+        "vdaguenet/one-page-seo": "dev-master"
+    }
+}

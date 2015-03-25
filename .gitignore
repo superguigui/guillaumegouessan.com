@@ -1,0 +1,6 @@
+*.log
+.DS_Store
+.sass-cache
+node_modules/
+static/build/
+static/php/vendor

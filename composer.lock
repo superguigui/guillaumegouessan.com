@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "35dfdee70adb51410fa1712237001522",
+    "packages": [
+        {
+            "name": "vdaguenet/one-page-seo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vdaguenet/one-page-seo.git",
+                "reference": "42b16aa4632d2938bfaba1b67aeebd14080e2ff4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vdaguenet/one-page-seo/zipball/42b16aa4632d2938bfaba1b67aeebd14080e2ff4",
+                "reference": "42b16aa4632d2938bfaba1b67aeebd14080e2ff4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valentin Daguenet",
+                    "email": "valentin.daguenet@gmail.com"
+                }
+            ],
+            "description": "Serve static content of a one-page website to crawlers (e.g. Facebook, Google or Twitter) using PhantomJS",
+            "homepage": "https://github.com/vdaguenet/one-page-seo",
+            "keywords": [
+                "bot",
+                "crawler",
+                "one page",
+                "phantomjs",
+                "seo"
+            ],
+            "time": "2015-03-05 11:46:48"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "vdaguenet/one-page-seo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

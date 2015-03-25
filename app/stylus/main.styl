@@ -1,0 +1,45 @@
+/*======================================================================
+    MIXINS & EXTENDS
+======================================================================*/
+@import "../../node_modules/stylus-media-queries/index.styl";
+@import "../../node_modules/stylus-easing/index.styl";
+@import "../../node_modules/stylus-reset/index.styl";
+@import "../../node_modules/brindille-stylus-extends/index.styl";
+// @import "utils/*";
+
+/*======================================================================
+    BASE
+======================================================================*/
+@import "config/*";
+reset();
+
+html {
+  background: background-color;
+  color: body-text-color;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#view {
+  width: calc(100% - 270px);
+  position: relative;
+  left: 270px;
+  top: 40px;
+}
+
+a {
+  color: link-out-color;
+  text-decoration: none;
+}
+
+strong {
+  color: link-out-color;
+  font-weight: normal;
+}
+
+/*======================================================================
+    COMPONENTS
+======================================================================*/
+// @import "../components/*";
+@import "../layouts/*";
+@import "../sections/*";
